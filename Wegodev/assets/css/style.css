@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+#idPertama{
+    color: blue;    
+}
+#idKedua{
+    background-color: white;
+}
+.kelasPertama{
+    color: red;
+}
+.kelasKedua{
+    background-color: white;
+}
+.coba{
+    background-color: wheat;
+    width: 200px;
+}
