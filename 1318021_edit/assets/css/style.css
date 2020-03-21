@@ -107,15 +107,29 @@ h6.penulis{
 }
 .navbar-light .navbar-brand:hover {
 	color: wheat;
+	animation: none;
 }
 .navbar-light .navbar-brand {
 	color: #fff;
 	background-color: black;	
 	padding: 0px 20px;
+	
+}
+.navbar-brand .brand-cursor{
+	animation: blink 1s linear infinite
+}
+@keyframes blink{
+	0% {
+		opacity: 1;
+	}	
+	100%{
+		opacity: 0;
+	}
 }
 
+
 .navbar-weeedid{
-	background: transparent;
+	background: #fafafa;
 	margin-top: 50px;
 }
 
