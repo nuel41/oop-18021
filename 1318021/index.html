@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+    <div class="toggle" id="toggle" onclick="menu-expand()">
+        <i class="fas fa-plus" class="plus" id="plus"></i>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="atas"><a href="CV/index.html">
+            <i class="fas fa-user-tie">
+                <p class="cv">CV</p>
+                <p class="rec">recommended</p>
+            </i></a>
+        </div>
+        <div class="bawah"><a href="Port/index.html">
+            <p class="porto">Portofolio</p>
+            <i class="fas fa-passport"></i>
+        </a>
+    </div>            
+    </div>
+
+    <script> 
+    alert ("cv recommended")
+        var i=0;
+        function expand(){
+            if(i==0){
+                document.getElementById("menu").style.transform="scale(3)";
+                document.getElementById("plus").style.transform="rotate(135deg)";
+                i=1
+            }
+            else{
+                document.getElementById("menu").style.transform="scale(0)";
+                document.getElementById("plus").style.transform="rotate(0deg)";
+                i=0
+            }
+        }
+
+
+    </script>
+</body>
+</html>
