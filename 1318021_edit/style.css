@@ -10,11 +10,14 @@
 }
 .nuel img{
     width: 55%;    
-    border: 30px solid #FFEC72;
+    border: 10px solid #000000;
+    box-shadow: 1.2rem 1rem 1rem ;
+    transition: .75s;
 }
 
 .textalg{
     text-align: left;
+    
 }
 .text span{
     display: inline-block;
@@ -39,21 +42,27 @@ span.m-left{
     letter-spacing: 3px;
     word-spacing: 10px;
     font-size: .8rem;
+    opacity: .5;
 }
-
+.icon{
+    font-size: 30px;
+}
+.icon-a{
+    padding: 0px 10px;
+}
 .textalg a{
     padding: 12px 25px;
     background-color: none;
-    border: 3px solid #FFEC72;
-    color: rgb(94, 75, 75);
+    border: 3px solid #000000;
+    color: rgb(255, 255, 255);
     font-size: .8rem;
     font: bolder;
-    letter-spacing: 2px;
-    position: relative;
-    top: 80px;
-    overflow: hidden;
+    letter-spacing: 2px;    
+    top: 80px;    
     transition: .5s;
     display: inline-block;
+    
+    
 }
 .im{
     height: 100vh;    
@@ -62,13 +71,11 @@ span.m-left{
     background-color: antiquewhite;
     box-shadow: 0 0 1.2rem;
     padding: 50px;
-    
+    top: 20%;    
 }
 
-.text a:hover{
-    color: rgb(88, 83, 83);
-}
 
+/*
 .text a::before{
     content: '';
     background-color: #FFEC72;
@@ -80,6 +87,7 @@ span.m-left{
     z-index: -1;
     transition: -5s;
 }
+*/
 
 .text a:hover::before{
     height: 100%;

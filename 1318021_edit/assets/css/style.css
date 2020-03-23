@@ -29,7 +29,7 @@ body{
 }
 
 .btn{
-	background: #3a95e4;
+	background: #FFEC72;
 	color: white;
 	font-size: 12px;
 	letter-spacing: 2px;
@@ -43,7 +43,7 @@ body{
 .btn:hover{
 	cursor: pointer;
 	text-decoration: none;
-	background: #45a6f9;
+	background: rgb(231, 213, 91);
 	color:white;
 }
 
@@ -215,4 +215,85 @@ h6.penulis{
 		margin-bottom: 20px;
 	}
 
+}
+.skills{
+    height: 100vh;
+}
+div[class^='tag-']{
+    clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 50%, 0% 0%);
+    width: 120px;
+    height: 30px;
+    background-color: #FFEC72;
+    margin-right: 30px;    
+}
+
+div[class^='tag-'] p{
+    color: rgb(87, 69, 37);
+
+    text-align: center;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-top: 3px;    
+}
+.row.services.mb-30 {
+    color: rgb(87, 69, 37);
+    width: 500px;
+}
+.progressbar{
+    position: relative;
+    width: 600px;
+    height: 20px;
+    border: 3px solid #FFEC72;
+    border-radius: 20px;
+    margin-top: 7px;    
+    float: left;
+}
+div[class^='bar-']{
+    position: absolute;
+    background-color: #134b3d;
+    height: 10px;
+    border-radius: 20px;
+    margin: 2.7px;    
+}
+.bar-html{
+    width: 70%;
+}
+.bar-css{
+    width: 60%;
+    animation: css 4s;
+}
+@keyframes css{
+    0%{
+        width:0% ;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.bar-js{
+    width: 10%;
+    animation: js 4s;
+}
+.bar-sql{
+    width: 30%;
+}
+.bar-java{
+    width: 30%;
+}
+.skills-info{
+    font-size: 1.4rem;
+    color: #bebebe;
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.html {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
 }
