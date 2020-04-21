@@ -1,0 +1,63 @@
+body{
+    background-color: whitesmoke;
+}
+#form{
+    position: relative;
+    width: 440px;
+    margin: auto;   
+    box-shadow: 1px 1px 50px black;
+    letter-spacing: 2px;
+    background-color: #182C61;
+    padding:20px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+input[type=text]{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    margin: 6px 0;   
+    padding:12px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=password]{
+    width: 100%;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 6px 0;
+    border-radius: 4px;
+}
+input[type=submit]{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: #d1d8e0;
+    box-sizing: border-box;
+    padding: 10px 2px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14 px;
+    letter-spacing: 2px;
+}
+input[type=submit]:hover{
+    background-color: #63cdda;
+}
+input[type=submit]:focus{
+    box-shadow: 1px 1px 20px white;
+}
+input[type=password]:focus{
+    box-shadow: 1px 1px 20px #778beb;
+}
+input[type=text]:focus{
+    box-shadow: 1px 1px 20px white;
+}
+
+.notif{
+    background-color: red;
+}
