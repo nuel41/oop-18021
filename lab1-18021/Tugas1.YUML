@@ -1,0 +1,20 @@
+// {type:usecase}
+// {direction:leftToRight}
+// {generate:true}
+
+[User]-(Login)
+[User]-(Menampilkan Peta)
+[User]-(Pesan)
+(Pesan)>(Pilih Pembayaran)
+(Pesan)>(Tambahkan Rute)
+[User]-(Order Dilaksanakan)
+[User]-(Pencarian Driver)
+(Pencarian Driver)>(Sesuai Order)
+(Penjemputan User)>(Sesuai Order)
+[User]-(Diantar)
+[User]-(Sampai Tujuan)
+[Driver]-(Penjemputan User)
+[Driver]-(Mengantar)
+(Diantar)>(Sesuai Peta)
+(Mengantar)>(Sesuai Peta)
+[Driver]-(Sampai Tujuan)
