@@ -4,6 +4,6 @@
 [:User]MembukaMenuOrderan>[:Server Ojek]
 [:Server Ojek]MenampilkanData>[:User]
 [:User]MengambilOrderan>[:Server Ojek]
-[:Server Ojek]MenyeleksiCalonDriver>[:Server Ojek]
+[:Server Ojek]MengakomodasiCalonDriver>[:Server Ojek]
 [:Server Ojek]MengirimOrderan>[:Driver]
 [:Driver]MengerjakanOrderan>[:User]

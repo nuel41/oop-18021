@@ -1,0 +1,4 @@
+// {type:activity}
+// {generate:true}
+(start)->(masuk ke menu awal) -><a>[belum daftar]->(Sign Up)->(Login)<a>[Sudah Daftar]->(Login)
+(Login)->(Menampilkan Peta)->(Memilih Rute)->(Halaman Pembayaran)-><c>[Memilih Pembayaran tunai]-> (Pesan Driver) <c>[Memilih Pembayaran Dengan Saldo Ojek]-> (Validasi Jumlah Saldo)-><d>[Saldo Tidak Cukup]->(Halaman Pembayaran)<d>[Saldo Cukup]-> (Pesan Driver)->(Diantar)->(Sampai Tujuan)->(end)
