@@ -1,9 +1,9 @@
 // {type:sequence}
 // {generate:true}
 
-[:User]MembukaMenuOrderan>[:Server Ojek]
+[:User]MembukaMenuOrderan>[:ServerOjek]
 [:Server Ojek]MenampilkanData>[:User]
 [:User]MengambilOrderan>[:Server Ojek]
-[:Server Ojek]MengakomodasiCalonDriver>[:Server Ojek]
+[:Server Ojek]MengakomodasiCalonDriver>[:ServerOjek]
 [:Server Ojek]MengirimOrderan>[:Driver]
 [:Driver]MengerjakanOrderan>[:User]

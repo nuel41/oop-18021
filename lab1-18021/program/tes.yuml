@@ -1,0 +1,13 @@
+// {type:sequence}
+// {direction:leftToRight}
+// {generate:true}
+
+[User]Buka_Aplikasi>[Sistem]
+[User]Cari_Peta>[Sistem]
+[User]Pesan>[Sistem]
+[User]Order_Dilaksanakan>[Sistem]
+[User]Pencarian_Driver>[Sistem]
+[User]Diantar>[Sistem]
+[User]Sampai_Tujuan>[Sistem]
+[Driver]Mengantar>[User]
+[Driver]Sampai_Tujuan[User]
